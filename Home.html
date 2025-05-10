@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - Travel Xpress</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="homestyle.css" />
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold d-flex align-items-center" href="Home.html">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-2">
+              <path d="M4 4H8V20H4V4Z" fill="white"/>
+              <path d="M16 4L20 20H16L12 4H16Z" fill="white"/>
+              <path d="M8 10L12 20H8L4 10H8Z" fill="white"/>
+            </svg>
+            Travel Xpress
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item me-4"><a class="nav-link active" href="Home.html">Home</a></li>
+              <li class="nav-item me-4"><a class="nav-link" href="destination.html">Destinations</a></li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="YourBooking.html">Your Bookings</a>
+                <span class="notification-badge">3</span>
+              </li>
+              <li class="nav-item me-4"><a class="nav-link" href="#about">About Us</a></li>
+              <li class="nav-item me-4"><a class="nav-link" href="#rating">Send Rating</a></li>
+              <li class="nav-item me-4"><a class="nav-link" href="#inquiry">Send Inquiry</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <div id="introCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="bohol.jpg" class="d-block w-100 carousel-img" alt="Bohol">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-4 fw-bold">Discover the Philippines</h1>
+          <p class="lead">7,641 islands of breathtaking beauty and adventure.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="boracay.jpg" class="d-block w-100 carousel-img" alt="Boracay">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-4 fw-bold">Boracay Bliss</h1>
+          <p class="lead">Pristine white beaches and vibrant nightlife.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="palawan.jpg" class="d-block w-100 carousel-img" alt="Palawan">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-4 fw-bold">Palawan Paradise</h1>
+          <p class="lead">Crystal lagoons and limestone cliffs.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <section class="container py-5">
+    <h2 class="text-center display-6 fw-bold mb-5">Top Destinations</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+      <div class="col"><a href="boracay.html" class="text-decoration-none">
+        <div class="card h-100 shadow-sm">
+          <div class="card-img-wrapper"><img src="boracay.jpg" class="card-img-top" alt="Boracay" /></div>
+          <div class="card-body">
+            <h5 class="card-title">Boracay</h5>
+            <p class="card-text text-muted">Pristine beaches and vibrant nightlife.</p>
+          </div>
+        </div></a>
+      </div>
+      <div class="col"><a href="palawan.html" class="text-decoration-none">
+        <div class="card h-100 shadow-sm">
+          <div class="card-img-wrapper"><img src="palawan.jpg" class="card-img-top" alt="Palawan" /></div>
+          <div class="card-body">
+            <h5 class="card-title">Palawan</h5>
+            <p class="card-text text-muted">Crystal lagoons and limestone cliffs.</p>
+          </div>
+        </div></a>
+      </div>
+      <div class="col"><a href="cebu.html" class="text-decoration-none">
+        <div class="card h-100 shadow-sm">
+          <div class="card-img-wrapper"><img src="cebu.jpg" class="card-img-top" alt="Cebu" /></div>
+          <div class="card-body">
+            <h5 class="card-title">Cebu</h5>
+            <p class="card-text text-muted">Historical sites and diving spots.</p>
+          </div>
+        </div></a>
+      </div>
+      <div class="col"><a href="bohol.html" class="text-decoration-none">
+        <div class="card h-100 shadow-sm">
+          <div class="card-img-wrapper"><img src="bohol.jpg" class="card-img-top" alt="Bohol" /></div>
+          <div class="card-body">
+            <h5 class="card-title">Bohol</h5>
+            <p class="card-text text-muted">Chocolate Hills and tarsier sanctuaries.</p>
+          </div>
+        </div></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Us</h2>
+      <p class="lead text-center">Travel Xpress is your ultimate companion to explore the beauty of the Philippines. We are dedicated to offering unforgettable travel experiences by guiding you through the best beaches, islands, and cultural gems. Whether you're an adventurer, a foodie, or a history lover, there's something here for you.</p>
+    </div>
+  </section>
+
+  <section id="touristRatings" class="bg-success py-5">
+    <div class="container">
+      <h2 class="text-center text-white mb-4">What Tourists Are Saying</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Anonymous</h5>
+              <p class="card-text">“Palawan blew my mind! The lagoons are unlike anything I’ve seen. Will definitely return!”</p>
+              <div class="text-warning">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Traveler 2025</h5>
+              <p class="card-text">“Boracay's sunset is surreal. The beach vibe is energetic yet relaxing.”</p>
+              <div class="text-warning">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Island Explorer</h5>
+              <p class="card-text">“The food, people, and nature—Cebu has it all. The diving experience was top-notch!”</p>
+              <div class="text-warning">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <section id="rating" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Send a Rating</h2>
+      <div class="card-modern p-4">
+        <form class="row g-3 modern-form">
+          <div class="col-md-6 form-group">
+            <input type="text" class="form-control" id="ratingName" placeholder=" " required>
+            <label for="ratingName" class="form-label">Name</label>
+          </div>
+          <div class="col-md-6 form-group">
+            <input type="email" class="form-control" id="ratingEmail" placeholder=" " required>
+            <label for="ratingEmail" class="form-label">Email</label>
+          </div>
+          <div class="col-12 text-center">
+            <h2>Rate Your Experience:</h2>
+            <div class="emoji-rating d-flex justify-content-center gap-3">
+              <input type="radio" name="emojiRating" id="emoji1" value="1" hidden>
+              <label for="emoji1" class="emoji-label" title="Terrible">😠</label>
+              <input type="radio" name="emojiRating" id="emoji2" value="2" hidden>
+              <label for="emoji2" class="emoji-label" title="Bad">😞</label>
+              <input type="radio" name="emojiRating" id="emoji3" value="3" hidden>
+              <label for="emoji3" class="emoji-label" title="Okay">😐</label>
+              <input type="radio" name="emojiRating" id="emoji4" value="4" hidden>
+              <label for="emoji4" class="emoji-label" title="Good">😊</label>
+              <input type="radio" name="emojiRating" id="emoji5" value="5" hidden>
+              <label for="emoji5" class="emoji-label" title="Excellent">🤩</label>
+            </div>
+          </div>
+          <div class="col-12 form-group">
+            <textarea class="form-control" id="ratingComment" rows="3" placeholder=" "></textarea>
+            <label for="ratingComment" class="form-label">Comments</label>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-success">Submit Rating</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="inquiry" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Send an Inquiry</h2>
+      <div class="card-modern p-4">
+        <form class="row g-3 modern-form">
+          <div class="col-md-6 form-group">
+            <input type="text" class="form-control" id="inquiryName" placeholder=" " required>
+            <label for="inquiryName" class="form-label">Name</label>
+          </div>
+          <div class="col-md-6 form-group">
+            <input type="email" class="form-control" id="inquiryEmail" placeholder=" " required>
+            <label for="inquiryEmail" class="form-label">Email</label>
+          </div>
+          <div class="col-12 form-group">
+            <textarea class="form-control" id="inquiryMessage" rows="4" placeholder=" " required></textarea>
+            <label for="inquiryMessage" class="form-label">Your Message</label>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-success">Send Inquiry</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-success text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Travel Xpress</h5>
+          <p>Explore the Philippines with ease. Your guide to tropical destinations, fun adventures, and local culture.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-bold">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="Home.html" class="text-white text-decoration-none">Home</a></li>
+            <li><a href="destination.html" class="text-white text-decoration-none">Destinations</a></li>
+            <li><a href="YourBooking.html" class="text-white text-decoration-none">Your Bookings</a></li>
+            <li><a href="#about" class="text-white text-decoration-none">About Us</a></li>
+            <li><a href="#rating" class="text-white text-decoration-none">Send Rating</a></li>
+            <li><a href="#inquiry" class="text-white text-decoration-none">Send Inquiry</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-bold">Follow Us</h6>
+          <div class="d-flex gap-3 justify-content-center justify-content-md-start fs-4">
+            <a href="#" class="text-white" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white" aria-label="Tiktok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="text-white" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="border-light mt-4">
+      <p class="text-center mb-0">TravelXpress: We find ways for your enjoyment</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    document.querySelectorAll('a[href$=".html"]').forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const href = this.getAttribute('href');
+        document.body.classList.add('fade-out');
+        setTimeout(() => {
+          window.location.href = href;
+        }, 300);
+      });
+    });
+  </script>
+</body>
+</html>
